@@ -14,6 +14,8 @@
 		84D4607C290B955700287838 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D4607B290B955700287838 /* Assets.xcassets */; };
 		84D4607F290B955700287838 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D4607D290B955700287838 /* LaunchScreen.storyboard */; };
 		84D46082290B955700287838 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D46081290B955700287838 /* main.m */; };
+		84D46089290B961D00287838 /* XYZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D46088290B961D00287838 /* XYZPerson.m */; };
+		84D4608E290B983200287838 /* XYZShoutingPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D4608D290B983200287838 /* XYZShoutingPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		84D4607E290B955700287838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84D46080290B955700287838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84D46081290B955700287838 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84D46088290B961D00287838 /* XYZPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPerson.m; sourceTree = "<group>"; };
+		84D4608A290B96D300287838 /* XYZPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZPerson.h; sourceTree = "<group>"; };
+		84D4608D290B983200287838 /* XYZShoutingPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZShoutingPerson.m; sourceTree = "<group>"; };
+		84D4608F290B98C500287838 /* XYZShoutingPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZShoutingPerson.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,10 @@
 		84D4606E290B955500287838 /* Objecttive C Practice */ = {
 			isa = PBXGroup;
 			children = (
+				84D46088290B961D00287838 /* XYZPerson.m */,
+				84D4608A290B96D300287838 /* XYZPerson.h */,
+				84D4608D290B983200287838 /* XYZShoutingPerson.m */,
+				84D4608F290B98C500287838 /* XYZShoutingPerson.h */,
 				84D4606F290B955500287838 /* AppDelegate.h */,
 				84D46070290B955500287838 /* AppDelegate.m */,
 				84D46072290B955500287838 /* SceneDelegate.h */,
@@ -68,10 +78,10 @@
 				84D46075290B955500287838 /* ViewController.h */,
 				84D46076290B955500287838 /* ViewController.m */,
 				84D46078290B955500287838 /* Main.storyboard */,
+				84D46081290B955700287838 /* main.m */,
 				84D4607B290B955700287838 /* Assets.xcassets */,
 				84D4607D290B955700287838 /* LaunchScreen.storyboard */,
 				84D46080290B955700287838 /* Info.plist */,
-				84D46081290B955700287838 /* main.m */,
 			);
 			path = "Objecttive C Practice";
 			sourceTree = "<group>";
@@ -147,9 +157,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				84D46077290B955500287838 /* ViewController.m in Sources */,
+				84D4608E290B983200287838 /* XYZShoutingPerson.m in Sources */,
 				84D46071290B955500287838 /* AppDelegate.m in Sources */,
 				84D46082290B955700287838 /* main.m in Sources */,
 				84D46074290B955500287838 /* SceneDelegate.m in Sources */,
+				84D46089290B961D00287838 /* XYZPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

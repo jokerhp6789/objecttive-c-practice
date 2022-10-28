@@ -6,6 +6,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "XYZPerson.h"
+#import "XYZShoutingPerson.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
