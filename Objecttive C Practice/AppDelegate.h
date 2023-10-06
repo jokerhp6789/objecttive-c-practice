@@ -6,8 +6,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "XYZPerson.h"
-#import "XYZShoutingPerson.h"
+#import "PracticeExample.h"
+#import "PracticePointer.h"
+#import "ClassesObjectsPratice.h"
+
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

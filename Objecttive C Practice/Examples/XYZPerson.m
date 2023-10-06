@@ -20,12 +20,16 @@
 	return  self;
 }
 
+-(NSString *)fullName {
+	return [NSString stringWithFormat:@"%@ %@",self.firstName,self.lastName];
+}
+
 
 -(id)initPersonWithName:(NSString *)fn ln:(NSString *)ln {
 	self = [self init];
 	if(self){
-		_firstName = fn;
-		_lastName = ln;
+		self.firstName = fn;
+		self.lastName = ln;
 	}
 	return self;
 }
@@ -35,7 +39,9 @@
 	if(self.firstName == nil){
 		self.firstName = @"trung";
 	}
-	[self saySomething:[NSString stringWithFormat:@"%@ %@", _firstName, @"hello the world"]];
+	[self saySomething:[NSString stringWithFormat:@"%@ %@", [self fullName], @"hello the world"]];
+	self.firstName = nil;
+	self.lastName = nil;
 	
 }
 
@@ -44,6 +50,10 @@
 	NSLog(@"%@", text);
 	
 	return YES;
+}
+
+-(void)dealloc {
+	NSLog(@"Object XYZPerson is deallocated");
 }
 
 +(XYZPerson *) person {

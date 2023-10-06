@@ -12,9 +12,9 @@
 #endif /* XYZPerson_h */
 
 @interface XYZPerson:NSObject
-@property  NSString *firstName;
-@property  NSString *lastName;
-@property  NSDate *dateOfBirth;
+@property  __weak NSString *firstName;
+@property  __weak NSString *lastName;
+@property (weak) NSDate *dateOfBirth;
 - (void) sayHello;
 - (BOOL) saySomething:(NSString *) text;
 - (id) initPersonWithName:(NSString *)fn ln:(NSString *)ln;
