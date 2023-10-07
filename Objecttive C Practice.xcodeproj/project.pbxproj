@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		442FBC332AD0FCC600AB3A11 /* CategoriesExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 442FBC322AD0FCC600AB3A11 /* CategoriesExtension.m */; };
 		8458D6DB2ACE944200CF4935 /* PracticePointer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458D6DA2ACE944200CF4935 /* PracticePointer.m */; };
 		8458D6DF2ACEA55700CF4935 /* PracticeExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458D6DE2ACEA55700CF4935 /* PracticeExample.m */; };
 		8458D6E32ACEC58400CF4935 /* ClassesObjectsPratice.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458D6E22ACEC58400CF4935 /* ClassesObjectsPratice.m */; };
@@ -29,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		442FBC312AD0FBA900AB3A11 /* CategoriesExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoriesExtension.h; sourceTree = "<group>"; };
+		442FBC322AD0FCC600AB3A11 /* CategoriesExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoriesExtension.m; sourceTree = "<group>"; };
 		8458D6DA2ACE944200CF4935 /* PracticePointer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticePointer.m; sourceTree = "<group>"; };
 		8458D6DC2ACE946500CF4935 /* PracticePointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PracticePointer.h; sourceTree = "<group>"; };
 		8458D6DE2ACEA55700CF4935 /* PracticeExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticeExample.m; sourceTree = "<group>"; };
@@ -78,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		442FBC302AD0FB3800AB3A11 /* Categories&Extension */ = {
+			isa = PBXGroup;
+			children = (
+				442FBC312AD0FBA900AB3A11 /* CategoriesExtension.h */,
+				442FBC322AD0FCC600AB3A11 /* CategoriesExtension.m */,
+			);
+			path = "Categories&Extension";
+			sourceTree = "<group>";
+		};
 		8458D6D92ACE93E500CF4935 /* Pointer */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,12 +115,13 @@
 		8458D6E12ACEC55300CF4935 /* Classes&Objects */ = {
 			isa = PBXGroup;
 			children = (
+				442FBC302AD0FB3800AB3A11 /* Categories&Extension */,
 				8458D6FA2AD00B9E00CF4935 /* Encapsulation */,
 				8458D6F02ACFFADD00CF4935 /* Polymorphism */,
-				8458D6EF2ACFFABF00CF4935 /* ClassObject */,
 				8458D6EE2ACFFA8200CF4935 /* Inheritance */,
-				8458D6E22ACEC58400CF4935 /* ClassesObjectsPratice.m */,
+				8458D6EF2ACFFABF00CF4935 /* ClassObject */,
 				8458D6E42ACEC5AB00CF4935 /* ClassesObjectsPratice.h */,
+				8458D6E22ACEC58400CF4935 /* ClassesObjectsPratice.m */,
 			);
 			path = "Classes&Objects";
 			sourceTree = "<group>";
@@ -265,6 +278,7 @@
 				84D46077290B955500287838 /* ViewController.m in Sources */,
 				84D4608E290B983200287838 /* XYZShoutingPerson.m in Sources */,
 				8458D6FD2AD00C8700CF4935 /* Adder.m in Sources */,
+				442FBC332AD0FCC600AB3A11 /* CategoriesExtension.m in Sources */,
 				8458D6E92ACFE91600CF4935 /* Person.m in Sources */,
 				8458D6F92AD0026B00CF4935 /* Regtangle.m in Sources */,
 				8458D6E32ACEC58400CF4935 /* ClassesObjectsPratice.m in Sources */,

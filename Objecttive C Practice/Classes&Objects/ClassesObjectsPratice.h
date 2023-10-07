@@ -17,6 +17,7 @@
 #import "Square.h"
 #import "Regtangle.h"
 #import "Adder.h"
+#import "CategoriesExtension.h"
 
 
 @interface ClassesObjectsPratice:NSObject {
@@ -27,5 +28,6 @@
 -(void) excuteInheritancePratice;
 -(void) excutePolymorphismPratice;
 -(void) excuteEncapsulationPratice;
+-(void) excuteCategoriesExtensionPratice;
 
 @end;

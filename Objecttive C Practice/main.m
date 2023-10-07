@@ -28,7 +28,8 @@ int main(int argc, char * argv[]) {
 	[classesObjectsPratice 	excuteClassesObjectsPratice];
 	[classesObjectsPratice 	excuteInheritancePratice];
 	[classesObjectsPratice 	excutePolymorphismPratice];
-	[classesObjectsPratice 	excuteEncapsulationPratice];
+    [classesObjectsPratice  excuteEncapsulationPratice];
+	[classesObjectsPratice 	excuteCategoriesExtensionPratice];
 
 	return UIApplicationMain(argc, argv, nil, appDelegateClassName);
 }

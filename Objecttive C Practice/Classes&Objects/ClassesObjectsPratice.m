@@ -54,4 +54,15 @@
 	}
 }
 
+- (void)excuteCategoriesExtensionPratice{
+    // call custom method getCopyRightString adding to the NSStringCategory
+    NSString *copyRightText = [NSString getCopyRightString];
+    NSLog(@"Get copy right string from additional method getCopyRightString  of NSString Category: %@\n",copyRightText);
+    
+    SampleExtensionClass *sampleExtensionClass = [SampleExtensionClass alloc];
+    [sampleExtensionClass setInternalId];
+    NSString *externalId = [sampleExtensionClass getExternalId];
+    NSLog(@"Get externalId string from the SampleExtensionClass: %@\n",externalId);
+}
+
 @end
