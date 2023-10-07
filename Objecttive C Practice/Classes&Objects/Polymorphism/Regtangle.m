@@ -22,4 +22,10 @@
 	area = length * width;
 }
 
+
+- (void)printArea{
+    NSLog(@"The area value of the regtangle is: %f\n",area);
+}
+
+
 @end

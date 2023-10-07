@@ -21,4 +21,8 @@
 	area = length * length;
 }
 
+- (void)printArea{
+    NSLog(@"The area value of the square is: %f\n",area);
+}
+
 @end

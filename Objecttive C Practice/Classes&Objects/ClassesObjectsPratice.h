@@ -19,6 +19,7 @@
 #import "Adder.h"
 #import "CategoriesExtension.h"
 #import "ProtocalPractice.h"
+#import "DynamicBindingPratice.h"
 
 
 @interface ClassesObjectsPratice:NSObject {
@@ -31,5 +32,6 @@
 -(void) excuteEncapsulationPratice;
 -(void) excuteCategoriesExtensionPratice;
 -(void) excuteProtocolPratice;
+-(void) excuteDinamicBindingPratice;
 
 @end;

@@ -30,7 +30,8 @@ int main(int argc, char * argv[]) {
 	[classesObjectsPratice 	excutePolymorphismPratice];
     [classesObjectsPratice  excuteEncapsulationPratice];
     [classesObjectsPratice  excuteCategoriesExtensionPratice];
-	[classesObjectsPratice 	excuteProtocolPratice];
+    [classesObjectsPratice  excuteProtocolPratice];
+	[classesObjectsPratice 	excuteDinamicBindingPratice];
 
 	return UIApplicationMain(argc, argv, nil, appDelegateClassName);
 }

@@ -72,4 +72,11 @@
     }
 }
 
+- (void)excuteDinamicBindingPratice {
+    @autoreleasepool {
+        DynamicBindingPratice *practice = [DynamicBindingPratice alloc];
+        [practice startActions];
+    }
+}
+
 @end
