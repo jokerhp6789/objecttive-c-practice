@@ -18,6 +18,7 @@
 #import "Regtangle.h"
 #import "Adder.h"
 #import "CategoriesExtension.h"
+#import "ProtocalPractice.h"
 
 
 @interface ClassesObjectsPratice:NSObject {
@@ -29,5 +30,6 @@
 -(void) excutePolymorphismPratice;
 -(void) excuteEncapsulationPratice;
 -(void) excuteCategoriesExtensionPratice;
+-(void) excuteProtocolPratice;
 
 @end;

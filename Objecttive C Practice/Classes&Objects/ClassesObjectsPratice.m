@@ -65,4 +65,11 @@
     NSLog(@"Get externalId string from the SampleExtensionClass: %@\n",externalId);
 }
 
+- (void)excuteProtocolPratice{
+    @autoreleasepool {
+        SampleProtocolClass *sampleProtocolClass = [SampleProtocolClass alloc];
+        [sampleProtocolClass startAction];
+    }
+}
+
 @end
