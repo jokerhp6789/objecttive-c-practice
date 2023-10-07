@@ -79,4 +79,9 @@
     }
 }
 
+- (void)excuteCompositeObjectPratice {
+    CompositeObject *compositeObject = [[CompositeObject alloc]init];
+    [compositeObject startActions];
+}
+
 @end

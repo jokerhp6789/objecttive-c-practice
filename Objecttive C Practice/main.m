@@ -31,7 +31,9 @@ int main(int argc, char * argv[]) {
     [classesObjectsPratice  excuteEncapsulationPratice];
     [classesObjectsPratice  excuteCategoriesExtensionPratice];
     [classesObjectsPratice  excuteProtocolPratice];
-	[classesObjectsPratice 	excuteDinamicBindingPratice];
+    [classesObjectsPratice  excuteDinamicBindingPratice];
+	[classesObjectsPratice 	excuteCompositeObjectPratice];
 
 	return UIApplicationMain(argc, argv, nil, appDelegateClassName);
 }
+   

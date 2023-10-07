@@ -20,6 +20,7 @@
 #import "CategoriesExtension.h"
 #import "ProtocalPractice.h"
 #import "DynamicBindingPratice.h"
+#import "CompositeObject.h"
 
 
 @interface ClassesObjectsPratice:NSObject {
@@ -33,5 +34,6 @@
 -(void) excuteCategoriesExtensionPratice;
 -(void) excuteProtocolPratice;
 -(void) excuteDinamicBindingPratice;
+-(void) excuteCompositeObjectPratice;
 
 @end;

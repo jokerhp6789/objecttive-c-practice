@@ -10,6 +10,7 @@
 		442FBC332AD0FCC600AB3A11 /* CategoriesExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 442FBC322AD0FCC600AB3A11 /* CategoriesExtension.m */; };
 		442FBC372AD13FB900AB3A11 /* ProtocalPractice.m in Sources */ = {isa = PBXBuildFile; fileRef = 442FBC362AD13FB900AB3A11 /* ProtocalPractice.m */; };
 		442FBC3B2AD14FEC00AB3A11 /* DynamicBindingPratice.m in Sources */ = {isa = PBXBuildFile; fileRef = 442FBC3A2AD14FEC00AB3A11 /* DynamicBindingPratice.m */; };
+		442FBC3F2AD194D100AB3A11 /* CompositeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 442FBC3E2AD194D100AB3A11 /* CompositeObject.m */; };
 		8458D6DB2ACE944200CF4935 /* PracticePointer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458D6DA2ACE944200CF4935 /* PracticePointer.m */; };
 		8458D6DF2ACEA55700CF4935 /* PracticeExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458D6DE2ACEA55700CF4935 /* PracticeExample.m */; };
 		8458D6E32ACEC58400CF4935 /* ClassesObjectsPratice.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458D6E22ACEC58400CF4935 /* ClassesObjectsPratice.m */; };
@@ -38,6 +39,8 @@
 		442FBC362AD13FB900AB3A11 /* ProtocalPractice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtocalPractice.m; sourceTree = "<group>"; };
 		442FBC392AD14F2700AB3A11 /* DynamicBindingPratice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicBindingPratice.h; sourceTree = "<group>"; };
 		442FBC3A2AD14FEC00AB3A11 /* DynamicBindingPratice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicBindingPratice.m; sourceTree = "<group>"; };
+		442FBC3D2AD189F900AB3A11 /* CompositeObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompositeObject.h; sourceTree = "<group>"; };
+		442FBC3E2AD194D100AB3A11 /* CompositeObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompositeObject.m; sourceTree = "<group>"; };
 		8458D6DA2ACE944200CF4935 /* PracticePointer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticePointer.m; sourceTree = "<group>"; };
 		8458D6DC2ACE946500CF4935 /* PracticePointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PracticePointer.h; sourceTree = "<group>"; };
 		8458D6DE2ACEA55700CF4935 /* PracticeExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticeExample.m; sourceTree = "<group>"; };
@@ -114,6 +117,15 @@
 			path = "Dynamic Binding";
 			sourceTree = "<group>";
 		};
+		442FBC3C2AD189E500AB3A11 /* Composite Object */ = {
+			isa = PBXGroup;
+			children = (
+				442FBC3D2AD189F900AB3A11 /* CompositeObject.h */,
+				442FBC3E2AD194D100AB3A11 /* CompositeObject.m */,
+			);
+			path = "Composite Object";
+			sourceTree = "<group>";
+		};
 		8458D6D92ACE93E500CF4935 /* Pointer */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +151,7 @@
 		8458D6E12ACEC55300CF4935 /* Classes&Objects */ = {
 			isa = PBXGroup;
 			children = (
+				442FBC3C2AD189E500AB3A11 /* Composite Object */,
 				442FBC382AD14EFB00AB3A11 /* Dynamic Binding */,
 				442FBC342AD13CB700AB3A11 /* Protocol */,
 				442FBC302AD0FB3800AB3A11 /* Categories&Extension */,
@@ -319,6 +332,7 @@
 				442FBC372AD13FB900AB3A11 /* ProtocalPractice.m in Sources */,
 				8458D6DB2ACE944200CF4935 /* PracticePointer.m in Sources */,
 				84D46089290B961D00287838 /* XYZPerson.m in Sources */,
+				442FBC3F2AD194D100AB3A11 /* CompositeObject.m in Sources */,
 				8458D6F32ACFFBB300CF4935 /* Shape.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
