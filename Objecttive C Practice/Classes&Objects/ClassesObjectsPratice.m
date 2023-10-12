@@ -10,6 +10,10 @@
 
 @implementation ClassesObjectsPratice
 
+int add(int a,int b){
+	return a+b;
+}
+
 -(void) excuteClassesObjectsPratice {
 	Box *box1 = [[Box alloc]init];
 	Box *box2 = [[Box alloc]init];
@@ -82,6 +86,8 @@
 - (void)excuteCompositeObjectPratice {
     CompositeObject *compositeObject = [[CompositeObject alloc]init];
     [compositeObject startActions];
+	int total = add(10, 15);
+	NSLog(@"Total number is: %d\n",total);
 }
 
 @end
